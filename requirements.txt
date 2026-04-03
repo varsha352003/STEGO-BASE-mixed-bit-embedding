@@ -1,0 +1,10 @@
+numpy
+opencv-python
+torch
+torchvision
+matplotlib
+scikit-image
+pycryptodome
+reedsolo
+flask
+requests

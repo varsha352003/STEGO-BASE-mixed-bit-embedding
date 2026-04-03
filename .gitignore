@@ -1,0 +1,79 @@
+# ==================================================
+# Python / Virtual Environments
+# ==================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+
+# ==================================================
+# OS / Editor Files
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ==================================================
+# Generated Frames & Videos (Pipeline Outputs)
+# ==================================================
+output_frames/
+output_frames_with_message/
+output_video_with_message.mp4
+
+# Frame-level images
+*.png
+*.jpg
+*.jpeg
+
+# Video formats
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==================================================
+# Encrypted / Decrypted Payload Artifacts
+# ==================================================
+encrypted_message.txt
+extracted_encrypted_message.txt
+decrypted_message.txt
+
+# ==================================================
+# Semantic Analysis & Masks (Generated)
+# ==================================================
+semantic_mask/
+uncertainty_debug/
+*.npy
+
+# ==================================================
+# Evaluation Outputs (Plots & Metrics)
+# ==================================================
+evaluation_results/
+metrics.txt
+plots/
+
+# ==================================================
+# Temporary / Debug Files
+# ==================================================
+temp/
+tmp/
+debug/
+*.bak
+*.swp
+
+# ==================================================
+# Large Raw Input Media (Keep Out of Git)
+# ==================================================
+Bali.MOV
+
+# ==================================================
+# OS Generated
+# ==================================================
+$RECYCLE.BIN/
